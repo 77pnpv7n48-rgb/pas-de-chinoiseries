@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<div class="full_doc">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Pas de chinoiseries</title>
+        <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+
+    <body>
+
+        <header>
+            Welcome in PAS DE CHINOISERIES!
+        </header>
+
+        <main>
+                <h2>Meet my giiiirlfrieeeeends</h2>            
+                
+                  <section>
+        <h3>Présentation des protagonistes</h3>
+
+        <div class="cards">
+            <div class="card">
+                <img src="vic.png">
+                <p>Victoria</p>
+            </div>
+
+            <div class="card">
+                <img src="eva.png">
+                <p>Eva</p>
+            </div>
+
+            <div class="card">
+                <img src="faustine.png">
+                <p>Faustine</p>
+            </div>
+
+            <div class="card">
+                <img src="teona.png">
+                <p>Teona</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h3>Caractéristiques physiques des protagonistes</h3>
+
+        <table>
+            <tr>
+                <th></th>
+                <th>Victoria</th>
+                <th>Eva</th>
+                <th>Faustine</th>
+                <th>Teona</th>
+            </tr>
+
+            <tr>
+                <td>Cheveux</td>
+                <td colspan="2">Châtains</td>
+                <td>Blonds</td>
+                <td>Bruns</td>
+            </tr>
+            <tr>
+                <td>Yeux</td>
+                <td colspan="2">Marrons</td>
+                <td>Bleux</td>
+                <td>Marrons</td>
+            </tr>
+
+            <tr>
+                <td>Taille</td>
+                <td>1m56</td>
+                <td>1m65</td>
+                <td>1m63</td>
+                <td>1m57</td>
+            </tr>
+        </table>
+    </section>
+
+        <section>
+            <p>Pour information, voici leurs styles respectifs:<br/></p>
+            <ul>
+            <li><div class="nom">Victoria</div>Grand brun barbu, opérant un sport impliquant un ballon</li><br/>
+            <li><div class="nom">Eva</div>Tout ce qui est gitan et imberbe</li><br/>
+            <li><div class="nom">Faustine</div>Les chatains "old money" </li><br/>
+            <li><div class="nom">Teona</div>Style variable, ça passe si elle a pas le ick</li><br/>
+            </ul>
+        </section>
+        <section class="links">
+            <p>Pour les interessés, voici leurs instagrams respectifs:</p><br/>
+                <a href="https://www.instagram.com/victoria.artore/" target="_blank">Victoria</a><br/>
+                <a href="https://www.instagram.com/eva.bllt/" target="_blank">Eva</a><br/>
+                <a href="https://www.instagram.com/faustinespe/" target="_blank">Faustine</a><br/>
+                <a href="https://www.instagram.com/teona_zr/" target="_blank">Teona</a><br/>
+            <p>Ainsi que leurs adresses:</p> <br/>
+            <a href="https://i.pinimg.com/1200x/32/05/cd/3205cd49ac2fea656ff5e4019d90b78b.jpg" target="_blank">Victoria</a><br/>
+            <a href="https://i.pinimg.com/736x/c6/75/9e/c6759e43798f363e8332ccf9ddaba1b2.jpg" target="_blank">Eva</a><br/>
+            <a href="https://i.pinimg.com/736x/8c/5b/90/8c5b90c388f29b4f0cac557f336d287f.jpg" target="_blank">Faustine</a><br/>
+            <a href="https://i.pinimg.com/736x/76/cb/6c/76cb6c45ee1a3547d2e50da6077ebfd9.jpg" target="_blank">Teona</a><br/>
+        </section>
+        <section>
+            <h3>Voulez-vous postuler à un quelconque type de relation avec l'une d'entre elles?</h3><br/>
+        </section>
+        <section>
+            <form action="http://localhost:3000" method="POST">
+                <label for="prenom">C'est quoi ton blaze?</label><br/>
+                <input type="text" name="prenom" id="prenom" placeholder="Entrez votre prénom" required/><br/>
+                <label for="age">On vérifie quand même l'âge parce que dans ce groupe il y a eu des loupés</label><br/>
+                <input type="number" name="age" id="age" placeholder="Entrez votre âge" required/><br/>
+                <label for="target">Qui vous intéresse? (oui oui une seule...)</label><br/>
+                <select id="target" name="target" required>
+                    <option value="" disabled selected>Faites votre choix</option>
+                    <option value="Victoria">Victoria</option>
+                    <option value="Eva">Eva</option>
+                    <option value="Faustine">Faustine</option>
+                    <option value="Teona">Teona</option>
+                </select><br/>
+                <label for="type">Quelle type de relation recherchez vous avec la dite demoiselle?</label><br/>
+                <select id="type" name="type" required>
+                    <option value="" disabled selected>Faites votre choix</option>
+                    <option value="Relation sérieuse">Relation sérieuse</option><br/>
+                    <option value="baise">Copain copine si y'a moyen on pine</option><br/>
+                    <option value="chill">Pas de prise de tête, là où le vent vous mène</option><br/>
+                    <option value="amis">Super besties pour la vie</option><br/>
+                </select><br/>
+
+                <label for="insta">Veuillez fournir un instagram, après quoi votre candidature sera étudiée en conseil.</label><br/>
+                <input type="text" name="insta" id="insta" placeholder="Entrez votre insta" required/><br/>
+                <button type="submit">Envoyer ma candidature</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy All right reserved ARTORE Victoria
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"></script>
+    </body>
+    </div>
+</html>
